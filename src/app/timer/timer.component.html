@@ -1,0 +1,4 @@
+<h1>{{title | titlecase }} for {{initTitme}}m. after that rest for {{restTimer}}m.</h1>
+<a (click)="startTimer()">Start {{timerTitle}} timer?</a>
+<p>{{counter | timer}}</p>
+<a *ngIf="!stopTimerHandler" (click)="stopTimer()">Stop {{timerTitle}} timer</a>
